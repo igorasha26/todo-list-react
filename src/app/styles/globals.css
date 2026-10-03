@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  padding: 72px 20px;
+  font-family: 'Onest', 'Inter', system-ui, sans-serif;
+  color: var(--color-ink);
+  background-color: var(--color-page);
+  background-image: radial-gradient(circle, rgba(23, 22, 59, 0.2) 1.2px, transparent 1.4px);
+  background-size: 22px 22px;
+}
+
+@media (max-width: 520px) {
+  body {
+    padding: 32px 16px;
+  }
+}
+
+input,
+label,
+button {
+  transition-duration: var(--transition-duration);
+}
+
+::selection {
+  color: var(--color-ink);
+  background-color: var(--color-marker);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+  transition-duration: 0s !important;
+}

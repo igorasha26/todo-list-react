@@ -1,0 +1,42 @@
+.page,
+.state {
+  width: 100%;
+  max-width: 480px;
+  padding: 28px;
+  background-color: var(--color-white);
+  border: var(--border);
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.state {
+  font-weight: 600;
+  text-align: center;
+}
+
+.title {
+  width: fit-content;
+  max-width: 100%;
+  margin-bottom: 20px;
+  font-family: 'Bricolage Grotesque', 'Onest', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  overflow-wrap: anywhere;
+  background-image: linear-gradient(var(--color-marker), var(--color-marker));
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+  background-size: 100% 0.32em;
+}
+
+.status {
+  display: inline-block;
+  margin: 0;
+  padding: 4px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: var(--color-accent-soft);
+  border: 2px solid var(--color-ink);
+  border-radius: 999px;
+}

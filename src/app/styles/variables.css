@@ -1,0 +1,31 @@
+:root {
+  /* Палитра: чернильный + ультрамарин + маркер */
+  --color-ink: #17163B;
+  --color-accent: #4B3BFF;
+  --color-accent-soft: #E6E3FF;
+  --color-marker: #FFD84D;
+  --color-danger: #E5384F;
+  --color-page: #E9ECFF;
+
+  /* Старые имена переменных сохранены, значения подтянуты под новую палитру */
+  --color-white: #FFFFFF;
+  --color-black: var(--color-ink);
+
+  --color-dark-1: var(--color-ink);
+  --color-dark-2: var(--color-ink);
+
+  --color-gray-1: #F4F4FD;
+  --color-gray-2: #D5D4EA;
+  --color-gray-3: #B9B8D6;
+  --color-gray-4: #6B6A8F;
+
+  --border: 2px solid var(--color-ink);
+  --border-radius: 12px;
+
+  --box-shadow: 8px 8px 0 var(--color-accent);
+  --shadow-small: 3px 3px 0 var(--color-ink);
+
+  --input-height: 44px;
+
+  --transition-duration: 0.2s;
+}
